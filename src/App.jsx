@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "react-bootstrap"
+import "react-bootstrap";
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -8,12 +8,11 @@ import Suporte from "./Pages/Suporte";
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
 
-      <Home/>
+      <Home />
 
-      <Footer/>
-    
+      <Footer />
     </div>
   );
 }

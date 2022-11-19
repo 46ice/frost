@@ -1,4 +1,4 @@
-*{
+* {
   text-decoration: none;
   list-style: none;
   margin: 0;
@@ -7,21 +7,21 @@
 body {
   font-size: 18px;
   color: #fff;
-  background-image: linear-gradient(to bottom, #035AA6, #023059, #011526 );
+  background-image: linear-gradient(to bottom, #035aa6, #023059, #011526);
 }
 
-a{
+a {
   text-decoration: none;
   color: #ffff;
 }
 a:hover {
   color: #01090f;
 }
-main{
+main {
   display: flex;
   flex-direction: column;
-}  
-header{
+}
+header {
   font-size: 1.1rem;
   flex: 1;
   display: flex;
@@ -35,7 +35,7 @@ header{
   width: 100%;
 }
 
-.suporte{
+.suporte {
   width: 100%;
   height: 100%;
   display: flex;
@@ -54,13 +54,13 @@ header{
   background-color: #01152680;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.753);
   text-align: center;
-  }
+}
 
-  .card-title {
-    color: #91BBF2;
-  }
+.card-title {
+  color: #91bbf2;
+}
 
-.img-logo{
+.img-logo {
   width: 14vw;
 }
 
@@ -69,7 +69,7 @@ header{
   gap: 2vw;
 }
 
-.menu-lista{
+.menu-lista {
   display: flex;
   gap: 2vw;
 }
@@ -77,38 +77,40 @@ header{
   display: block;
   padding: 14px;
 }
-.sobre{
+.sobre {
   text-align: center;
   margin: 10vw;
 }
-.carousel{
+.carousel {
   margin-top: 3vw;
   flex: 1;
   width: 100%;
 }
-.conteudo{
+.conteudo {
   width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
   text-align: center;
 }
-.valores{
+.valores {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
 }
-.valores-conteudo{
+.valores-conteudo {
   display: flex;
   justify-content: space-between;
   padding: 5vw;
   gap: 10vw;
 }
-#missao, #visao, #valores{
+#missao,
+#visao,
+#valores {
   text-align: center;
 }
-.valores-conteudo-caixa{
+.valores-conteudo-caixa {
   background-color: #91bbf257;
   width: 20vw;
   height: 20vw;
@@ -119,7 +121,7 @@ header{
   gap: 1vw;
   border-radius: 10px;
 }
-.depoimentos{
+.depoimentos {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -129,13 +131,13 @@ header{
   flex: 1;
   justify-content: center;
 }
-.depoimentos-conteudo{
+.depoimentos-conteudo {
   display: flex;
   justify-content: space-around;
   padding: 3vw;
   gap: 3vw;
 }
-.depoimentos-conteudo-caixa{
+.depoimentos-conteudo-caixa {
   width: 20vw;
   display: flex;
   flex-direction: column;
@@ -147,26 +149,27 @@ header{
   border-radius: 10px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.432);
 }
-.depoimentos-conteudo-caixa-empresa{
+.depoimentos-conteudo-caixa-empresa {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 1vw;
 }
-.depoimentos-conteudo-caixa-descrição{
+.depoimentos-conteudo-caixa-descrição {
   display: flex;
   align-items: center;
 }
-.depoimentos-conteudo-caixa-autor{
+.depoimentos-conteudo-caixa-autor {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 1vw;
 }
-.nome-empresa, .nome-autor{
+.nome-empresa,
+.nome-autor {
   font-weight: bold;
 }
-footer{
+footer {
   background-color: #03121f;
   width: 100%;
   max-height: 80%;
@@ -174,24 +177,24 @@ footer{
   flex-direction: column;
   flex: 1;
 }
-.footer-conteudo{
+.footer-conteudo {
   display: flex;
   justify-content: center;
   gap: 10vw;
 }
-.footer-logo{
+.footer-logo {
   flex: 1;
 }
-.footer-conteudo-caixa{
+.footer-conteudo-caixa {
   display: flex;
   flex-direction: column;
   padding: 2vw;
 }
-.redes-sociais{
+.redes-sociais {
   display: flex;
   gap: 1vw;
 }
-.footer-bottom{
+.footer-bottom {
   margin: auto;
   background-color: black;
   color: #fff;
@@ -202,7 +205,7 @@ footer{
 .footer-bottom p {
   margin: 0;
 }
-.footer-to-top{
+.footer-to-top {
   display: flex;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.438);
@@ -214,12 +217,12 @@ footer{
   right: 2vw;
   bottom: 2vw;
 }
-.imagem{
+.imagem {
   border-radius: 50%;
   width: 4vw;
   height: 4vw;
 }
 .icon {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg) brightness(105%) contrast(101%);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg)
+    brightness(105%) contrast(101%);
 }
-
