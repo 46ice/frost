@@ -11,22 +11,22 @@ function Footer() {
         </div>
         <div className="footer-conteudo-caixa">
           <h6>MAPA DO SITE</h6>
-          <a href="index.html">Home</a>
-          <a href="portifolio.html">Portifólio</a>
-          <a href="contato.html">Contatos</a>
-          <a href="contato.html">Formulário de Contato</a>
+          <a href="/home">Home</a>
+          <a href="/suporte">Suporte</a>
+          <a href="/vendas">Vendas</a>
+          <a href="/register">Cadastre-se</a>
         </div>
         <div className="footer-conteudo-caixa">
           <h6>CONTATOS</h6>
-          <a href="https://www.google.com/">Email</a>
-          <a href="https://www.google.com/">Telefone</a>
-          <a href="https://www.google.com/">WhatsApp</a>
+          <a href="mailto:thiago.t46t@gmail.com">Email</a>
+          <a href="tel:+5541987748330">Telefone</a>
+          <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!">WhatsApp</a>
         </div>
         <div className="footer-conteudo-caixa">
           <h6>SIGA-NOS</h6>
           <div className="redes-sociais">
             <a
-              href="https://www.instagram.com/frost.technology/"
+              href="https://www.instagram.com/frost.technology/" target="_blank"
             >
               <img
                 className="icon"
@@ -34,14 +34,14 @@ function Footer() {
                 alt="instagram"
               />
             </a>
-            <a href="https://www.google.com/">
+            <a href="https://twitter.com/46_frost" target="_blank">
               <img
                 className="icon"
                 src="../files/icons8-twitter-24.png"
                 alt="twitter"
               />
             </a>
-            <a href="https://www.google.com/">
+            <a href="https://www.linkedin.com/in/thiago-oliveira-b99425206/" target="_blank">
               <img
                 className="icon"
                 src="../files/icons8-linkedin-24.png"
@@ -49,9 +49,6 @@ function Footer() {
               />
             </a>
           </div>
-        </div>
-        <div className="footer-to-top">
-          <a href="https://www.google.com/"> ^ </a>
         </div>
       </div>
       <div className="footer-bottom">

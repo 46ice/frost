@@ -8,9 +8,9 @@ import Suporte from "./Pages/Suporte";
 function App() {
   return (
     <div className="App">
-
-      <Home />
-
+      <Header/>
+      <Home/>
+      <Footer/>
     </div>
   );
 }

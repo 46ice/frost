@@ -13,7 +13,9 @@ function Suporte() {
             presente em todos os meios para suporte de hardware para a sua
             necessidade e de sua empresa.
           </Card.Text>
-          <Button variant="primary">Contrate</Button>
+          <Button variant="primary">
+            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+          </Button>
         </Card.Body>
       </Card>
       <Card style={{ width: "18rem" }}>
@@ -24,7 +26,9 @@ function Suporte() {
             Desenvolvemos todos os tipos de software, contando com uma equipe
             qualificada para melhor atender sua necessidade.
           </Card.Text>
-          <Button variant="primary">Contrate</Button>
+          <Button variant="primary">
+            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+          </Button>
         </Card.Body>
       </Card>
       <Card style={{ width: "18rem" }}>
@@ -35,7 +39,9 @@ function Suporte() {
             Realizamos a instalação da sua rede, cabeamento, instalação de
             roteadores e Switchs. Tudo que sua estrutura precisar.
           </Card.Text>
-          <Button variant="primary">Contrate</Button>
+          <Button variant="primary">
+            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+          </Button>
         </Card.Body>
       </Card>
       <Card style={{ width: "18rem" }}>
@@ -47,7 +53,9 @@ function Suporte() {
             qual configuramos e instalamos Servidores, Firewall e Anti-virus
             implementando sempre a melhor opção e solução para sua empresa.
           </Card.Text>
-          <Button variant="primary">Contrate</Button>
+          <Button variant="primary">
+            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+          </Button>
         </Card.Body>
       </Card>
     </div>

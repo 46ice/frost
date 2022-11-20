@@ -13,8 +13,8 @@ function Header() {
                     <li><a href="#sobre">Sobre nós</a></li>
                     <li><a href="#to-valores">Valores</a></li>
                     <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="src\Pages\Suporte.jsx">Suporte</a></li>
-                    
+                    <li><a href="/suporte">Suporte</a></li>
+                    <li><a href="/vendas">Vendas</a></li>  
                 </ul>
                 </div>
                 <div>
