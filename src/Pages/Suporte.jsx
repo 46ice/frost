@@ -14,7 +14,7 @@ function Suporte() {
             necessidade e de sua empresa.
           </Card.Text>
           <Button variant="primary">
-            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+            <a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
           </Button>
         </Card.Body>
       </Card>
@@ -27,7 +27,7 @@ function Suporte() {
             qualificada para melhor atender sua necessidade.
           </Card.Text>
           <Button variant="primary">
-            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+            <a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
           </Button>
         </Card.Body>
       </Card>
@@ -40,7 +40,7 @@ function Suporte() {
             roteadores e Switchs. Tudo que sua estrutura precisar.
           </Card.Text>
           <Button variant="primary">
-            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+            <a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
           </Button>
         </Card.Body>
       </Card>
@@ -54,7 +54,7 @@ function Suporte() {
             implementando sempre a melhor opção e solução para sua empresa.
           </Card.Text>
           <Button variant="primary">
-            <a href="https://api.whatsapp.com/send?phone=5541987748330&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
+            <a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Contrate</a>
           </Button>
         </Card.Body>
       </Card>
