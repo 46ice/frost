@@ -8,7 +8,7 @@ function Cadastro() {
       <Card style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>Cadastre-se</Card.Title>
-          <Form>
+          <Form method="post" action="http://localhost:8080/frost/user/create">
 
           <Form.Group controlId="username">
             <Form.Label>Nome do usuário</Form.Label>

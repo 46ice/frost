@@ -1,5 +1,5 @@
 import React from 'react';
-import UserForm from '../components/UserForm';
+import Cadastro from '../pages/Cadastro';
 
 const CadastroCall = () => {
   const handleOnSubmit = (user) => {
@@ -8,7 +8,7 @@ const CadastroCall = () => {
 
   return (
     <React.Fragment>
-      <UserForm handleOnSubmit={handleOnSubmit} />
+      <Cadastro handleOnSubmit={handleOnSubmit} />
     </React.Fragment>
   );
 };

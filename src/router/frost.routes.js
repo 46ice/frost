@@ -2,7 +2,6 @@ const db = require("../models");
 const bcrypt = require("bcrypt")
 
 module.exports = app => {
-    const frost = require("../controller/frost.controller.js");
   
     var router = require("express").Router();
   
