@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <div>
-      <Header />
+      
 
       <div className="sobre" id="sobre">
         <h1 className="mb-5">Sobre nós</h1>
