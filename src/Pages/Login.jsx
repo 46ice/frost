@@ -8,15 +8,16 @@ function Login() {
       <Card style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>Login</Card.Title>
-          <Form>
-            <Form.Group className="mb-3" controlId="Email">
+          <Form method="post" action="http://localhost:8080/frost/login">
+            <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Digite seu email" />
+              <Form.Control className="input-control" type="text" name="email" placeholder="Digite seu email" />
+              
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="Password">
               <Form.Label>Senha</Form.Label>
-              <Form.Control type="password" placeholder="Digite sua senha" />
+              <Form.Control className="input-control" type="password" name="password" placeholder="Digite sua senha" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="Checkbox">
