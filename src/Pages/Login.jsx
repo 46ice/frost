@@ -2,13 +2,14 @@ import { Card } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
+var link = "http://localhost:8080/frost/login";
 function Login() {
   return (
     <>
       <Card style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>Login</Card.Title>
-          <Form method="post" action="http://localhost:8080/frost/login">
+          <Form method="post" action={link}>
             <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email</Form.Label>
               <Form.Control className="input-control" type="text" name="email" placeholder="Digite seu email" />

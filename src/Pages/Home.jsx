@@ -1,11 +1,7 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 function Home() {
   return (
     <div>
       
-
       <div className="sobre" id="sobre">
         <h1 className="mb-5">Sobre nós</h1>
         <p>

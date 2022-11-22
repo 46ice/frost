@@ -226,3 +226,23 @@ footer {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg)
     brightness(105%) contrast(101%);
 }
+
+
+.login {
+  width: 30rem !important;
+  margin: 20px;
+  background-color: #9ec9eb;
+  background-image: linear-gradient(135deg, #d2e3fd 0%, #d2e3fd 100%);
+  color: #58616e ;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wall {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.register-title {
+  color: #285088 ;
+}
