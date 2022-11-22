@@ -24,11 +24,7 @@ module.exports = app => {
          res.status(404).json({ error : "User does not exist" });
        }
 
-
-
     });
-
-
 
     router.post("/user/create", async(req, res) => {
       const hashedPassword = bcrypt.hashSync(req.body.password, 10);
