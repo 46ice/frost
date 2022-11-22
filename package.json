@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mysql2": "^2.3.3",
     "react": "^18.2.0",
@@ -24,6 +23,7 @@
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
+    "cors": "^2.8.5",
     "vite": "^3.2.4"
   }
 }

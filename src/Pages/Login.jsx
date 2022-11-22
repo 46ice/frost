@@ -1,12 +1,18 @@
 import { Card } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 var link = "http://localhost:8080/frost/login";
-function Login() {
+export default function Login({ setToken }) {
+
+  //const [username, setUserName] = useState();
+  //const [password, setPassword] = useState();
+
   return (
     <>
-      <Card style={{ width: "18rem" }}>
+      <Card className="login">
         <Card.Body>
           <Card.Title>Login</Card.Title>
           <Form method="post" action={link}>
@@ -24,14 +30,14 @@ function Login() {
             <Form.Group className="mb-3" controlId="Checkbox">
               <Form.Check type="checkbox" label="Não sou robô" />
             </Form.Group>
-            <Button variant="primary" type="submit">
-              Entrar
-            </Button>
+            <div className="user-options-div">
+              <Button className="user-options buttons" variant="primary" type="submit">Entrar</Button>
+              <Button className="user-options buttons" variant="primary" type="submit" href="http://localhost:5173/register">Cadastrar-se</Button>
+            </div>
           </Form>
         </Card.Body>
       </Card>
     </>
   );
 }
-
-export default Login;
+//Login.propTypes = {setToken: PropTypes.func.isRequired}

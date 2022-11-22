@@ -9,15 +9,14 @@ import App from '../App';
 function Cadastro() {
   var link = "http://localhost:8080/frost/user/create";
 
-  const navigate = useNavigate();
-  const home = () => {navigate('/home');};
+  
   return (
     <>
     <div className="wall">
       <Card className="login">
         <Card.Body>
           <Card.Title className="register-title">Cadastre-se</Card.Title>
-          <Form method="post" action={link}>
+          <Form method="post" action={link} href="http://localhost:5173/frost/user/create" target="_blank">
 
           <Form.Group controlId="username">
             <Form.Label>Nome do usuário</Form.Label>
@@ -31,7 +30,7 @@ function Cadastro() {
 
             <Form.Group className="mb-3" controlId="Password">
               <Form.Label>Senha</Form.Label>
-              <Form.Control className="input-control" type="text" name="password" placeholder="Digite sua senha" />
+              <Form.Control className="input-control" type="password" name="password" placeholder="Digite sua senha" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="ConfirmationPassword">
@@ -46,7 +45,7 @@ function Cadastro() {
 
             <Form.Group controlId="contact">
               <Form.Label>Número de contato</Form.Label>
-              <Form.Control className="input-control" type="text" name="contact" placeholder="contact" />
+              <Form.Control className="input-control" type="text" name="contact" placeholder="Contato" />
             </Form.Group>
 
             <input  type="hidden" name="chest_id" value="1"></input >
@@ -55,7 +54,7 @@ function Cadastro() {
               <Form.Check type="checkbox" label="Não sou robô" />
             </Form.Group>
             
-            <Button variant="primary" type="submit" onClick={home}>
+            <Button className="buttons" variant="primary" type="submit">
               Cadastrar
             </Button>
           </Form>
