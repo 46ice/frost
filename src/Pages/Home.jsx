@@ -1,4 +1,40 @@
 function Home() {
+
+  const missao = document.querySelector('#missao');
+const visao = document.querySelector('#visao');
+const valores = document.querySelector('#valores');
+
+
+function missaoTexto() { 
+    missao.innerHTML = ('<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit Repudiandae obcaecati eaque illum?</p>');
+ }
+
+function visaoTexto() {
+    visao.innerHTML = ('<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit Repudiandae obcaecati eaque illum?');
+ }
+
+function valoresTexto() {
+    valores.innerHTML = ('<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit Repudiandae obcaecati eaque illum?');
+ }
+
+function missaoTitulo() { 
+    missao.innerHTML = ('<img class="icon" src="files/missao.png" alt="missao"> <h6>Missão </h6>');
+  }
+
+function visaoTitulo() { 
+    visao.innerHTML = ('<img class="icon" src="files/visao.png" alt="visao"> <h6>Visão </h6>');
+ }
+
+function valoresTitulo() {
+    valores.innerHTML = ('<img class="icon" src="files/valor.png" alt="valores"><h6>Valores</h6>');
+}
+
+//  missao.addEventListener('mouseenter', missaoTexto );
+//  visao.addEventListener('mouseenter', visaoTexto);
+//  valores.addEventListener('mouseenter', valoresTexto);
+//  missao.addEventListener('mouseout', missaoTitulo);
+//  visao.addEventListener('mouseout', visaoTitulo);
+//  valores.addEventListener('mouseout', valoresTitulo);
   return (
     <div>
       

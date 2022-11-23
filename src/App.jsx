@@ -14,14 +14,9 @@ import DetalhesPerfil from './pages/DetalhesPerfil';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
 function App() {
 
   const [token, setToken] = useState();
-
-  // if(!token) {
-  //   return <Login setToken={setToken} />
-  // }
 
   return (
     <div className="App">
@@ -36,7 +31,7 @@ function App() {
                         <Route path="/home" element={<Home />}></Route>
                         <Route path="/profile" element={<DetalhesPerfil />}></Route>
                         <Route path="/suporte" element={<Suporte />}></Route>
-                        {/* <Route path="/welcome" element={<Welcome />}></Route> */}
+              
                     </Routes>
                 </div>
                 <Footer />

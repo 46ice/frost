@@ -6,10 +6,10 @@ module.exports = (sequelize, Sequelize) => {
             primaryKey: true
       },
       qnty: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       value: {
-        type: Sequelize.STRING
+        type: Sequelize.FLOAT
       }
     
     });

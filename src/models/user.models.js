@@ -21,7 +21,7 @@ module.exports = (sequelize, Sequelize) => {
         type: Sequelize.STRING
       },
       chest_id: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       }
     });
   
