@@ -6,7 +6,7 @@ module.exports = app => {
   
     var router = require("express").Router();
   
-    //login
+  
     router.post("/login", async(req, res) => {
 
 
@@ -40,11 +40,10 @@ module.exports = app => {
       };
       console.log(user);
     
-      // Save Tutorial in the database
+  
       await db.user.create(user)
         .then(data => {
-          //res.send(data);
-          //res.redirect(307, );
+
           res.status(200).redirect('http://localhost:5173/home');
         })
         .catch(err => {
@@ -56,15 +55,14 @@ module.exports = app => {
     });
 
     router.post("/product/create", async(req, res) => {
-      // Validate request
-      // Create a Tutorial
+
       const product = {
         name: req.body.name,
         description: req.body.description,
         price: req.body.price,
       };
     
-      // Save Tutorial in the database
+    
       await db.product.create(product)
         .then(data => {
           res.send(data);
@@ -78,16 +76,12 @@ module.exports = app => {
     });
     
     router.post("/buy/create", async(req, res) => {
-      // Validate request
-  
-    
-      // Create a Tutorial
+      
       const buy = {
         user_id: req.body.user_id,
         value: req.body.value
       };
     
-      // Save Tutorial in the database
       await db.buys.create(buy)
         .then(data => {
           res.send(data);
@@ -101,9 +95,6 @@ module.exports = app => {
     });
 
 
-
-  
-    // Retrieve all Tutorials
     router.get("/user/all", async (req, res) => {
       try {
           const users = await db.user.findAll()
@@ -144,8 +135,6 @@ module.exports = app => {
       return res.json({msg: "None"})
     });
 
-  
-    // Retrieve a single Tutorial with id
     router.get("/user/:id", async(req, res) => {
       const id = req.params.id;
       await db.user.findByPk(id).then(data => {return res.send(data);});
@@ -167,9 +156,6 @@ module.exports = app => {
       await db.chest.findByPk(id).then(data => {return res.send(data);});
     });
 
-
-  
-    // Update a Tutorial with id
     router.put("/user/update/:id", async (req, res) => {
       const id = req.params.id;
     
@@ -267,7 +253,7 @@ module.exports = app => {
         });
     });
     
-    // Delete a Tutorial with id
+  
     router.delete("/user/delete/:id", async (req, res) => {
       const id = req.params.id;
     
