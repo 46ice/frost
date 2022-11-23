@@ -12,6 +12,7 @@ export default function Login({ setToken }) {
 
   return (
     <>
+    <div className="wall">
       <Card className="login">
         <Card.Body>
           <Card.Title>Login</Card.Title>
@@ -37,6 +38,7 @@ export default function Login({ setToken }) {
           </Form>
         </Card.Body>
       </Card>
+    </div>  
     </>
   );
 }

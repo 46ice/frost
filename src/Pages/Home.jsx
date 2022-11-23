@@ -5,25 +5,8 @@ function Home() {
       <div className="sobre" id="sobre">
         <h1 className="mb-5">Sobre nós</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-          distinctio, totam, excepturi voluptas tempora blanditiis sed aliquid
-          nemo quae, quis rem nulla! Enim architecto in molestias numquam
-          maiores laborum earum. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Cumque eveniet veniam quidem, quas quisquam quo
-          excepturi unde quam quos ab fuga, repellat veritatis cum at, itaque
-          assumenda nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Eum distinctio, totam, excepturi voluptas tempora blanditiis sed
-          aliquid nemo quae, quis rem nulla! Enim architecto in molestias
-          numquam maiores laborum earum. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Cumque eveniet veniam quidem, quas quisquam quo
-          excepturi unde quam quos ab fuga, repellat veritatis cum at, itaque
-          assumenda nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Eum distinctio, totam, excepturi voluptas tempora blanditiis sed
-          aliquid nemo quae, quis rem nulla! Enim architecto in molestias
-          numquam maiores laborum earum. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Cumque eveniet veniam quidem, quas quisquam quo
-          excepturi unde quam quos ab fuga, repellat veritatis cum at, itaque
-          assumenda nesciunt?
+        A Frost Technology tem como objetivo realizar atendimentos com a máxima excelência e competência, contamos com profissionais qualificados e com experiência na área.
+Prezamos sempre pela satisfação do cliente. Para que você se sinta sempre a vontade para retornar quando precisar.
         </p>
       </div>
       <div className="conteudo">
