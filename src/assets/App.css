@@ -176,6 +176,10 @@ footer {
   display: flex;
   flex-direction: column;
   flex: 1;
+  /* position:initial;
+  bottom: 0px;
+  
+  margin-bottom: 0px; */
 }
 .footer-conteudo {
   display: flex;

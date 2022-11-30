@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "react-bootstrap";
-import "./App.css";
+import "./assets/App.css";
 
 import Login from './pages/Login';
 import CadastroCall from './components/CadastroCall';
@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Suporte from "./Pages/Suporte";
+// import New from "./Pages/new";
 import DetalhesPerfil from './pages/DetalhesPerfil';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -31,6 +32,7 @@ function App() {
                         <Route path="/home" element={<Home />}></Route>
                         <Route path="/profile" element={<DetalhesPerfil />}></Route>
                         <Route path="/suporte" element={<Suporte />}></Route>
+                        {/* <Route path="/teste" element={<New />}></Route> */}
               
                     </Routes>
                 </div>
