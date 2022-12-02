@@ -21,7 +21,7 @@
     gap: 3vw;
   }
   .depoimentos-conteudo-caixa {
-    min-width: 20vw;
+    min-width: 30vw;
     min-height: 30vw;
     display: flex;
     max-width: 20vw;
@@ -37,19 +37,29 @@
     text-align: start;
     background-color: #0115262a;
     border-radius: 7px;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.432);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
     
   }
-  .depoimentos-conteudo-caixa-empresa {
+.depoimento-div{
+    min-width: 30vw;
+    min-height: 30vw;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: start;
-    gap: 1vw;
+}
+
+  .empresa {
+    font-size: 14px;
+    padding: 1vw;
   }
   .depoimentos-conteudo-caixa-descrição {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
     display: flex;
     align-items: center;
-      overflow: hidden;
+    overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
@@ -61,7 +71,8 @@
     justify-content: start;
     gap: 1vw;
   }
-  .nome-empresa,
-  .nome-autor {
-    font-weight: bold;
+  .nome-empresa {
+    display: contents;
+    font-size: 18px;
+    /* margin-top: 1vh; */
   }

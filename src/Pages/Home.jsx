@@ -74,15 +74,20 @@ function valoresTitulo() {
             Leia oque alguns disseram sobre nós:
           </p>
           <div className="depoimentos-conteudo">
-            <div className="depoimentos-conteudo-caixa">
-              <div className="depoimentos-conteudo-caixa-empresa">
-                <img
+            <div className="depoimento-div">
+
+            <img
                   className="imagem"
                   src="../files/834-200x200.jpg"
-                  alt="logo empresa"
+                  alt="imagem autor"
                 />
-                <p className="nome-empresa"> Nome empresa</p>
+            <div className="depoimentos-conteudo-caixa-autor">
+                
+                <p className="nome-autor">Marcia Martins</p>
               </div>
+              
+              <div className='empresa'>Shell Company</div>
+
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -91,74 +96,56 @@ function valoresTitulo() {
                 
                 </p>
               </div>
-              <div className="depoimentos-conteudo-caixa-autor">
-                <img
-                  className="imagem"
-                  src="../files/834-200x200.jpg"
-                  alt="imagem autor"
-                />
-                <p className="nome-autor"> Nome autor</p>
-              </div>
+              
             </div>
-            <div className="depoimentos-conteudo-caixa">
-              <div className="depoimentos-conteudo-caixa-empresa">
-                <img
-                  className="imagem"
-                  src="../files/834-200x200.jpg"
-                  alt="logo empresa"
-                />
-                <p className="nome-empresa"> Nome empresa</p>
+            <div className="depoimento-div">
+
+              <img
+                    className="imagem"
+                    src="../files/834-200x200.jpg"
+                    alt="imagem autor"
+                  />
+            <div className="depoimentos-conteudo-caixa-autor">
+                
+                <p className="nome-autor">Marcia Martins</p>
               </div>
+              
+              <div className='empresa'>Shell Company</div>
+
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                
                 </p>
               </div>
-              <div className="depoimentos-conteudo-caixa-autor">
-                <img
-                  className="imagem"
-                  src="../files/834-200x200.jpg"
-                  alt="imagem autor"
-                />
-                <p className="nome-autor"> Nome autor</p>
-              </div>
+              
             </div>
-            <div className="depoimentos-conteudo-caixa">
-              <div className="depoimentos-conteudo-caixa-empresa">
-                <img
-                  className="imagem"
-                  src="../files/834-200x200.jpg"
-                  alt="logo empresa"
-                />
-                <p className="nome-empresa"> Nome empresa</p>
-              </div>
-              <div className="depoimentos-conteudo-caixa-descrição">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div className="depoimento-div">
+
+              <img
+                    className="imagem"
+                    src="../files/834-200x200.jpg"
+                    alt="imagem autor"
+                  />
+              <div className="depoimentos-conteudo-caixa-autor">
                   
-                </p>
+                  <p className="nome-autor">Marcia Martins</p>
+                </div>
+                
+                <div className='empresa'>Shell Company</div>
+
+                <div className="depoimentos-conteudo-caixa-descrição">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  
+                  </p>
+                </div>
+                
               </div>
-              <div className="depoimentos-conteudo-caixa-autor">
-                <img
-                  className="imagem"
-                  src="../files/834-200x200.jpg"
-                  alt="imagem autor"
-                />
-                <p className="nome-autor"> Nome autor</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
