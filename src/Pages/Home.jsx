@@ -1,3 +1,5 @@
+import '../assets/home.css';
+
 function Home() {
 
   const missao = document.querySelector('#missao');
@@ -36,13 +38,13 @@ function valoresTitulo() {
 //  visao.addEventListener('mouseout', visaoTitulo);
 //  valores.addEventListener('mouseout', valoresTitulo);
   return (
-    <div>
+    <div className="div-home">
       
       <div className="sobre" id="sobre">
         <h1 className="mb-5">Sobre nós</h1>
         <p>
         A Frost Technology tem como objetivo realizar atendimentos com a máxima excelência e competência, contamos com profissionais qualificados e com experiência na área.
-Prezamos sempre pela satisfação do cliente. Para que você se sinta sempre a vontade para retornar quando precisar.
+        Prezamos sempre pela satisfação do cliente. Para que você se sinta sempre a vontade para retornar quando precisar.
         </p>
       </div>
       <div className="conteudo">
@@ -86,11 +88,7 @@ Prezamos sempre pela satisfação do cliente. Para que você se sinta sempre a v
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores natus veritatis accusantium ab vero, fugit eos ipsum,
-                  sit modi aut quos, minima reiciendis dicta laborum ex aperiam.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum ea consequuntur, dolore perspiciatis similique eaque
-                  eveniet amet non illum saepe praesentium harum nihil neque.
+                
                 </p>
               </div>
               <div className="depoimentos-conteudo-caixa-autor">
@@ -140,11 +138,16 @@ Prezamos sempre pela satisfação do cliente. Para que você se sinta sempre a v
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Blanditiis quidem, ducimus magni perspiciatis quos facere rem
-                  dolor pariatur animi nam officiis sequi quod dignissimos illo.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quas, odio. Placeat maiores aliquam natus aliquid amet, ab
-                  possimus.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  
                 </p>
               </div>
               <div className="depoimentos-conteudo-caixa-autor">

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.div-home {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.depoimentos {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw;
+    margin: 10vw;
+    flex: 1;
+    justify-content: center;
+  }
+  .depoimentos-conteudo {
+    display: flex;
+    justify-content: space-around;
+    padding: 3vw;
+    gap: 3vw;
+  }
+  .depoimentos-conteudo-caixa {
+    min-width: 20vw;
+    min-height: 30vw;
+    display: flex;
+    max-width: 20vw;
+    max-height: 30vw;
+    object-fit: cover!important;
+    display: inline-flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    padding: 1vw;
+    gap: 1vw;
+    text-align: start;
+    background-color: #0115262a;
+    border-radius: 7px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.432);
+    
+  }
+  .depoimentos-conteudo-caixa-empresa {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1vw;
+  }
+  .depoimentos-conteudo-caixa-descrição {
+    display: flex;
+    align-items: center;
+      overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    }
+  
+  .depoimentos-conteudo-caixa-autor {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1vw;
+  }
+  .nome-empresa,
+  .nome-autor {
+    font-weight: bold;
+  }
