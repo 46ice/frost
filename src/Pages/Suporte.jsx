@@ -6,7 +6,7 @@ import '../assets/support.css';
 function Suporte() {
   return (
     <div className="suporte-back">
-       <p>Nossos produtos:</p>
+       <div className="produto"><p>Dê uma olhada em nossos produtos!</p></div>
       <div className="suporte conteudo-suporte"> 
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src="/files/hardware.jpg" />

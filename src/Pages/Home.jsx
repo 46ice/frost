@@ -75,41 +75,37 @@ function valoresTitulo() {
           </p>
           <div className="depoimentos-conteudo">
             <div className="depoimento-div">
-              <img className="imagem" src="../files/834-200x200.jpg" alt="imagem autor"/>
-              <div className="nome-autor">Marcia Martins</div>
-              <div className='empresa'>Shell Company</div>
+              <img className="imagem" src="https://cdn.domestika.org/c_fit,dpr_auto,f_auto,t_base_params,w_820/v1614314079/content-items/007/216/200/Thisperson-original.jpg?1614314079" alt="imagem autor"/>
+              <div className="nome-autor">Saulo Campos</div>
+              <div className='empresa'>Eletrolux</div>
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  
                 </p>
               </div>
             </div>
             <div className="depoimento-div">
-              <img className="imagem" src="../files/834-200x200.jpg" alt="imagem autor"/>
-              <div className="nome-autor">Marcia Martins</div>
-              <div className='empresa'>Shell Company</div>
+              <img className="imagem" src="https://images.iphonephotographyschool.com/24755/portrait-photography.jpg" alt="imagem autor"/>
+              <div className="nome-autor">Carla Kruv</div>
+              <div className='empresa'>BOSCH</div>
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  
                 </p>
               </div>
             </div>
             <div className="depoimento-div">
-              <img className="imagem" src="../files/834-200x200.jpg" alt="imagem autor"/>
-              <div className="nome-autor">Marcia Martins</div>
+              <img className="imagem" src="https://photographypro.com/wp-content/uploads/2017/08/portrait-photography-focal-length-50mm-1.jpg" alt="imagem autor"/>
+              <div className="nome-autor">Maria Martins</div>
               <div className='empresa'>Shell Company</div>
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
             </div>
