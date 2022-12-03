@@ -1,0 +1,76 @@
+.suporte {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-suporte {
+    width: 100%;
+  
+    margin: 20vh 0 20vh 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.suporte .card {
+    background-color: #01152680;
+    text-align: center;
+    max-height: 50vh;
+    max-width: 35vh;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+    box-shadow: 0px 0px 6px BLACK;
+}
+.suporte .card .card-title {
+    color:black;
+    font-size: 1.1rem;
+}
+  .suporte .card .card-text {
+    
+    font-size: 0.9rem;
+}
+
+.suporte .card .card-body {
+    background-color: rgb(208, 222, 230);    
+    object-fit: cover!important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px black00038 inset;
+    color: black;
+    
+}
+.suporte .card .card-text {
+    text-align: justify ;
+    text-justify: inter-word;
+    
+}
+  
+.suporte .card .card-body button {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #426780 0%, #18377a 100%);
+    border-color: rgba(240, 239, 239, 0.007);
+}
+
+.suporte-back {
+    color: white;
+} 
+
+.contrate {
+    
+    background-color: rgb(20, 68, 141);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    box-shadow: 0px 0px 20px #18223df3 inset;
+    border-top: 3px solid rgb(120, 126, 141);
+    border-radius: 2px;
+    
+}
+.contrate:hover {
+    background-color: rgb(113, 142, 184);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

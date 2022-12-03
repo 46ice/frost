@@ -75,77 +75,44 @@ function valoresTitulo() {
           </p>
           <div className="depoimentos-conteudo">
             <div className="depoimento-div">
-
-            <img
-                  className="imagem"
-                  src="../files/834-200x200.jpg"
-                  alt="imagem autor"
-                />
-            <div className="depoimentos-conteudo-caixa-autor">
-                
-                <p className="nome-autor">Marcia Martins</p>
-              </div>
-              
+              <img className="imagem" src="../files/834-200x200.jpg" alt="imagem autor"/>
+              <div className="nome-autor">Marcia Martins</div>
               <div className='empresa'>Shell Company</div>
-
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                
                 </p>
               </div>
-              
             </div>
             <div className="depoimento-div">
-
-              <img
-                    className="imagem"
-                    src="../files/834-200x200.jpg"
-                    alt="imagem autor"
-                  />
-            <div className="depoimentos-conteudo-caixa-autor">
-                
-                <p className="nome-autor">Marcia Martins</p>
-              </div>
-              
+              <img className="imagem" src="../files/834-200x200.jpg" alt="imagem autor"/>
+              <div className="nome-autor">Marcia Martins</div>
               <div className='empresa'>Shell Company</div>
-
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
-              
             </div>
             <div className="depoimento-div">
-
-              <img
-                    className="imagem"
-                    src="../files/834-200x200.jpg"
-                    alt="imagem autor"
-                  />
-              <div className="depoimentos-conteudo-caixa-autor">
-                  
-                  <p className="nome-autor">Marcia Martins</p>
-                </div>
-                
-                <div className='empresa'>Shell Company</div>
-
-                <div className="depoimentos-conteudo-caixa-descrição">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  
-                  </p>
-                </div>
-                
+              <img className="imagem" src="../files/834-200x200.jpg" alt="imagem autor"/>
+              <div className="nome-autor">Marcia Martins</div>
+              <div className='empresa'>Shell Company</div>
+              <div className="depoimentos-conteudo-caixa-descrição">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
               </div>
+            </div>
           </div>
         </div>
       </div>

@@ -52,9 +52,12 @@
   .empresa {
     font-size: 14px;
     padding: 1vw;
+    font-weight: bold;
+    color: #111b36;
   }
   .depoimentos-conteudo-caixa-descrição {
-    text-align: justify;
+    text-align: justify ;
+    
     text-justify: inter-word;
     font-size: 16px;
     display: flex;
@@ -63,6 +66,8 @@
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
+    margin-left: 3vw;
+    margin-right: 3vw;
     }
   
   .depoimentos-conteudo-caixa-autor {
@@ -70,9 +75,4 @@
     align-items: center;
     justify-content: start;
     gap: 1vw;
-  }
-  .nome-empresa {
-    display: contents;
-    font-size: 18px;
-    /* margin-top: 1vh; */
   }
