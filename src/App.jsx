@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import CadastroCall from './components/CadastroCall';
 
 import Header from "./components/Header";
+import HeaderLogged from "./components/HeaderLogged";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
@@ -20,15 +21,22 @@ function App() {
   const { token, setToken } = useToken();
 
 
-  // if(!token) {
-  //   return <Login setToken={setToken} />
-  // }
+  if(!token) {
+    
+    return (
+      <div className="App">
+        <Header/>
+        <Login setToken={setToken} />
+        <Footer/>
+      </div>
+    )
+  }
 
   return (
     <div className="App">
       <BrowserRouter>
             <div>
-                <Header />
+                <HeaderLogged />
                 <div className="main-content">
                     <Routes>
                         <Route path="/" element={<Home />}></Route>

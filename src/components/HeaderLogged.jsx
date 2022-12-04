@@ -1,5 +1,5 @@
 
-function Header() {
+function HeaderLogged() {
     return(
         <header className="header-header">
             <div className="logo"><a href="/home"><img className="img-logo" src="https://media.discordapp.net/attachments/807092416313688074/1042207300624068708/lg7.png" width="250vw" alt="frost logo"></img></a></div>
@@ -14,13 +14,11 @@ function Header() {
                 </div>
                 <div class="btn-group btn-group-toggle">
                     <a class="btn btn-secondary btn-nav" href="/home"><i class="fa fa-home"></i></a>
-                    <a class="btn btn-secondary btn-nav" href="/login"><span class="material-symbols-outlined">
-login
-</span></a>    
+                    <a class="btn btn-secondary btn-nav" href="/logout"><span class="material-symbols-outlined">logout</span></a>    
                 </div>
             </div>
         </header>
     )
 }
 
-export default Header;
+export default HeaderLogged;

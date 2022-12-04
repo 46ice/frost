@@ -38,7 +38,7 @@ export default function Login({ setToken }) {
       <Card className="login">
         <Card.Body>
           <Card.Title>Login</Card.Title>
-          <Form method="post" action={link} onSubmit={handleSubmit}>
+          <Form method="post" onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email</Form.Label>
               <Form.Control className="input-control" type="text" name="email" placeholder="Digite seu email" onChange={e => setEmail(e.target.value)} />
@@ -55,7 +55,7 @@ export default function Login({ setToken }) {
             </Form.Group>
             <div className="user-options-div">
               <Button className="user-options buttons" variant="primary" type="submit">Entrar</Button>
-              <Button className="user-options buttons" variant="primary" type="submit" href="http://localhost:5173/register">Cadastrar-se</Button>
+              <Button className="user-options buttons" variant="primary" href="http://localhost:5173/register">Cadastrar-se</Button>
             </div>
           </Form>
         </Card.Body>
