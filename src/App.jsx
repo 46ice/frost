@@ -10,14 +10,19 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Suporte from "./Pages/Suporte";
-import New from "./Pages/New";
 import DetalhesPerfil from './pages/DetalhesPerfil';
+import useToken from './components/useToken';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
-  const [token, setToken] = useState();
+  const { token, setToken } = useToken();
+
+
+  // if(!token) {
+  //   return <Login setToken={setToken} />
+  // }
 
   return (
     <div className="App">
@@ -32,8 +37,6 @@ function App() {
                         <Route path="/home" element={<Home />}></Route>
                         <Route path="/profile" element={<DetalhesPerfil />}></Route>
                         <Route path="/suporte" element={<Suporte />}></Route>
-                        <Route path="/teste" element={<New />}></Route>
-              
                     </Routes>
                 </div>
                 <Footer />

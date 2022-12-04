@@ -15,8 +15,8 @@ module.exports = app => {
          const password_valid = await bcrypt.compare(req.body.password,user.password);
          if(password_valid){
              //token = jwt.sign({ "id" : user.id,"email" : user.email,"first_name":user.first_name },process.env.SECRET);
-             
-             res.status(200).redirect('http://localhost:5173/home');
+             res.send({token: user.id});
+             //res.status(200).redirect('http://localhost:5173/home');
              
          } else {
            res.status(400).json({ error : "Password Incorrect" });

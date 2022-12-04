@@ -12,8 +12,7 @@ function Footer() {
         <div className="footer-conteudo-caixa">
           <h6>MAPA DO SITE</h6>
           <a href="/home">Home</a>
-          <a href="/suporte">Suporte</a>
-          <a href="/vendas">Vendas</a>
+          <a href="/suporte">Produtos</a>
           <a href="/register">Cadastre-se</a>
         </div>
         <div className="footer-conteudo-caixa">

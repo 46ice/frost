@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 
@@ -94,7 +93,8 @@ main {
 }
 
 .img-logo {
-  width: 14vw;
+  width: 12vw;
+  position: absolute;
   
 }
 
@@ -165,10 +165,6 @@ footer {
   display: flex;
   flex-direction: column;
   flex: 1;
-  /* position:initial;
-  bottom: 0px;
-  
-  margin-bottom: 0px; */
 }
 .footer-conteudo {
   display: flex;
