@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 * {
   text-decoration: none;
@@ -8,12 +8,15 @@
   margin: 0;
 }
 
+
 body {
   font-size: 1rem;
   color: #fff;
   background-color: #256aa3;
   box-shadow: 0px 0px 100px #00000038 inset;
   position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  
 }
 
 a {
@@ -27,6 +30,13 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.main-content {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  position: relative;
+}
+
 
 .header-header {
   background: #03091e33;
@@ -115,7 +125,8 @@ main {
 }
 .sobre {
   text-align: center;
-  margin: 10vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .carousel {
   margin-top: 3vw;

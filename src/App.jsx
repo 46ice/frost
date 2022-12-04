@@ -11,8 +11,10 @@ import HeaderLogged from "./components/HeaderLogged";
 import Footer from "./components/Footer";
 
 import Home from "./pages/index/Home";
-import Suporte from "./pages/index/Suporte";
+import Produtos from "./pages/index/Produtos";
 import DetalhesPerfil from './pages/user/DetalhesPerfil';
+import Chest from './pages/chest/Chest';
+
 import useToken from './components/useToken';
 
 
@@ -34,12 +36,9 @@ function App() {
     )
   }
 
-  
-
   return (
     <div className="App">
       <BrowserRouter>
-            <div>
                 <HeaderLogged />
                 <div className="main-content">
                     <Routes>
@@ -49,11 +48,11 @@ function App() {
                         <Route path="/register" element={<CadastroCall />}></Route>
                         <Route path="/home" element={<Home />}></Route>
                         <Route path="/profile" element={<DetalhesPerfil />}></Route>
-                        <Route path="/suporte" element={<Suporte />}></Route>
+                        <Route path="/suporte" element={<Produtos />}></Route>
+                        <Route path="/chest" element={<Chest />}></Route>
                     </Routes>
                 </div>
                 <Footer />
-            </div>
         </BrowserRouter>
     </div>
   );
