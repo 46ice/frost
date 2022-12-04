@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import {Routes, Route, useNavigate} from 'react-router-dom';
-import App from '../App';
+import App from '../../App';
 
 
 

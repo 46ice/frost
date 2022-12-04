@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import "../assets/support.css";
+import "../../assets/support.css";
 
 function Suporte() {
   return (

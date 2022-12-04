@@ -146,6 +146,7 @@ main {
 #valores {
   text-align: center;
 }
+
 .valores-conteudo-caixa {
   background-color: #91bbf257;
   width: 20vw;
@@ -156,6 +157,18 @@ main {
   justify-content: center;
   gap: 1vw;
   border-radius: 10px;
+  position: relative;
+}
+
+.valores-conteudo-caixa p{
+  font-size: 0.9rem;
+  align-self: baseline;
+  margin: 10px;
+}
+.valores-conteudo-caixa h6{
+  margin: 10px;
+  position: absolute;
+  top: 90px;
 }
 
 footer {
@@ -214,8 +227,13 @@ footer {
   margin-bottom: 2vw;
 }
 .icon {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg)
-    brightness(105%) contrast(101%);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg) brightness(105%) contrast(101%);
+}
+.valores-conteudo-caixa .icon {
+  margin: 10px;
+  position: absolute;
+  top: 20px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg) brightness(105%) contrast(101%);
 }
 
 

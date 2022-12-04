@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/profile.css';
+import '../../assets/profile.css';
 
 export default function DetalhesPerfil() {
   return(

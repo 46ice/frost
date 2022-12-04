@@ -1,5 +1,5 @@
 import React from 'react';
-import Cadastro from '../pages/Cadastro';
+import Cadastro from '../pages/index/Cadastro.jsx';
 
 const CadastroCall = () => {
   const handleOnSubmit = (user) => {
