@@ -62,15 +62,20 @@ function Home() {
             <div className="valores-conteudo-caixa" id="missao">
               <img className="icon" src="../files/missao.png" alt="missão" />
               <h6>Missão </h6>
+              <br></br>
+              <p> “Nossa missão é capacitar todas as pessoas e organizações do planeta com a tecnologia mais e mais.”</p>
             </div>
-
             <div className="valores-conteudo-caixa" id="visao">
               <img className="icon" src="../files/visao.png" alt="visão" />
               <h6>Visão </h6>
+              <br></br>
+              <p>“A Frost se dedica a desenvolver tecnologias inovadoras e processos eficientes que criam mercados e enriquecem as vidas das pessoas e continuam a fazer da Frost um líder da tecnologia.” </p>
             </div>
             <div className="valores-conteudo-caixa" id="valores">
               <img className="icon" src="../files/valor.png" alt="valores" />
               <h6>Valores</h6>
+              <br></br>
+              <p>“Excelência, Integridade, Pessoas, Mudança, Co-Prosperidade”</p>
             </div>
           </div>
         </div>
