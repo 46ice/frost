@@ -48,11 +48,12 @@ function Home() {
       <div className="sobre" id="sobre">
         <h1 className="mb-5">Sobre nós</h1>
         <p>
-          A Frost Technology tem como objetivo realizar atendimentos com a
-          máxima excelência e competência, contamos com profissionais
-          qualificados e com experiência na área. Prezamos sempre pela
-          satisfação do cliente. Para que você se sinta sempre a vontade para
-          retornar quando precisar.
+        A Frost Technology tem como objetivo realizar atendimentos com a máxima excelência e competência, contamos com profissionais qualificados e com experiência na área.
+        Prezamos sempre pela satisfação do cliente. Para que você se sinta sempre a vontade para retornar quando precisar.
+        Estamos aqui para melhorar a rapidez de atendimentos e suporte mantendo esse diferencial das outras empresas, sempre estando 100% focado em satisfazer nosso cliente. 
+        </p>
+        <p>
+        A Frost não é só mais uma empresa, não é ísso que buscamos, o futuro está chegando, a era da tecnologia, a cada dia trazendo mais facilidade para atender e resolver os problemas de sua vida.
         </p>
       </div>
       <div className="conteudo">
@@ -92,8 +93,7 @@ function Home() {
               <div className="empresa">Eletrolux</div>
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                Com uma estrutura adequada, eficaz, rigorosamente selecionada e com um suporte perfeito, estamos felizes com a qualidade e precisão, onde a maior preocupação é a satisfação consumidor e isso foi feito.               
                 </p>
               </div>
             </div>
@@ -107,8 +107,7 @@ function Home() {
               <div className="empresa">BOSCH</div>
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                Fica evidente que a empresa sempre se preocupa com seu trabalho e dedica um tempo para fazê-lo corretamente. Eu gostei especialmente do suporte rapido, sem falar que perguntou sobre suas preferências de tudo e cada detalhe antes de começar.
                 </p>
               </div>
             </div>
@@ -122,8 +121,7 @@ function Home() {
               <div className="empresa">Shell Company</div>
               <div className="depoimentos-conteudo-caixa-descrição">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae obcaecati eaque illum? Harum blanditiis deserunt.
+                  A Shell encontrou na Frost tudo que precisavamos, estamos sempre atualizados no meio da tecnologia, sempre com os melhores softwares em nossa rede, seja como coisas fisicas atualizadas ou mesmo dentro da nossa rede de computadores deixamos tudo na mão da Frost.
                 </p>
               </div>
             </div>
