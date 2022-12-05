@@ -22,16 +22,6 @@ import HeaderOption from "./components/HeaderOption";
 function App() {
 
   const { token, setToken } = useToken();
-  
-  // if(!token) {
-  //   return (
-  //     <div className="App">
-  //       <Header/>
-  //       <Login setToken={setToken} />
-  //       <Footer/>
-  //     </div>
-  //   )
-  // }
 
   return (
     <div className="App">

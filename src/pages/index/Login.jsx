@@ -16,10 +16,22 @@ async function loginUser(credentials) {
     .then(data => data.json())
  }
 
+ async function addInCart(credentials) {
+  return fetch('http://localhost:8080/frost/login', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(credentials)
+  })
+  .then(data => data.json())
+ }
+
 export default function Login({ setToken }) {
 
   let [email, setEmail] = useState();
   let [password, setPassword] = useState();
+  let [items, setItem] = useState();
 
   const navigate = useNavigate();
 
@@ -31,7 +43,15 @@ export default function Login({ setToken }) {
     navigate("/home"), {state:{refresh:true}};
   }
 
-      
+
+
+  const handleCart = async e => {
+    e.preventDefault();
+    const item = await addInCart({item});
+    setItem(item);
+    navigate("/home");
+  }
+
   return (
     <>
     <div className="wall">

@@ -52,13 +52,17 @@ module.exports = app => {
         });
     });
 
-    router.post("/product/create", async(req, res) => {
+    router.post("/product/create/:productId/:userId", async(req, res) => {
+      const productId = req.params.productId;
+      const userId = req.params.userId;
 
-      const product = {
-        name: req.body.name,
-        description: req.body.description,
-        price: req.body.price,
-      };
+      if (productId = 1) {
+          product = {
+            name: 'HARDWARE',
+            description: 'Somos uma empresa impar no mercado atual, com o diferencial de estar presente em todos os meios para suporte de hardware para a sua necessidade e de sua empresa.',
+            price: 150.00,
+        };
+      }
     
     
       await db.product.create(product)
@@ -132,6 +136,47 @@ module.exports = app => {
       }
       return res.json({msg: "None"})
     });
+    
+    
+    
+    // router.get("/chest/add/productId/userId", async (req, res) => {
+    //     const productId = req.params.productId;
+    //     const userId = req.params.userId;
+  
+    //     if (productId = 1) {
+    //         product = {
+    //           name: 'HARDWARE',
+    //           description: 'Somos uma empresa impar no mercado atual, com o diferencial de estar presente em todos os meios para suporte de hardware para a sua necessidade e de sua empresa.',
+    //           price: 150.00,
+    //       };
+    //     if (productId = 2) {
+    //         product = {
+    //           name: 'HARDWARE',
+    //           description: 'Somos uma empresa impar no mercado atual, com o diferencial de estar presente em todos os meios para suporte de hardware para a sua necessidade e de sua empresa.',
+    //           price: 150.00,
+    //       };
+    //     if (productId = 3) {
+    //         product = {
+    //           name: 'HARDWARE',
+    //           description: 'Somos uma empresa impar no mercado atual, com o diferencial de estar presente em todos os meios para suporte de hardware para a sua necessidade e de sua empresa.',
+    //           price: 150.00,
+    //       };
+    //     if (productId = 4) {
+    //         product = {
+    //           name: 'HARDWARE',
+    //           description: 'Somos uma empresa impar no mercado atual, com o diferencial de estar presente em todos os meios para suporte de hardware para a sua necessidade e de sua empresa.',
+    //           price: 150.00,
+    //       };
+    //     }
+
+    //   try {
+    //       const chests = await db.chest.findAll();
+    //       return res.send({ chests })
+    //   } catch(err) {
+    //       console.error(err);
+    //   }
+    //   return res.json({msg: "None"})
+    // });
 
     router.get("/user/:id", async(req, res) => {
       const id = req.params.id;

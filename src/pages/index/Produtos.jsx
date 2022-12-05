@@ -1,6 +1,11 @@
 import Card from "react-bootstrap/Card";
 import "../../assets/support.css";
 
+const product1 = 'http://localhost:8080/create/1/' + localStorage.getItem('id');
+const product2 = 'http://localhost:8080/create/2/' + localStorage.getItem('id');
+const product3 = 'http://localhost:8080/create/3/' + localStorage.getItem('id');
+const product4 = 'http://localhost:8080/create/4/' + localStorage.getItem('id');
+
 function Suporte() {
   return (
     <div className="suporte-back">
@@ -17,7 +22,7 @@ function Suporte() {
               estar presente em todos os meios para suporte de hardware para a
               sua necessidade e de sua empresa.
             </Card.Text>
-            <div className="contrate"><a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank" >Contrate</a></div>
+            <div className="contrate"><a href={product2} target="_blank">Colocar no carrinho</a></div>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
@@ -28,7 +33,7 @@ function Suporte() {
               Desenvolvemos todos os tipos de software, contando com uma equipe
               qualificada para melhor atender sua necessidade.
             </Card.Text>
-            <div className="contrate"><a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank" >Contrate</a></div>
+            <div className="contrate"><a href={product2} target="_blank" value='2'>Colocar no carrinho</a></div>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
@@ -40,7 +45,7 @@ function Suporte() {
               roteadores e Switchs. Tudo que sua estrutura precisar.
             </Card.Text>
 
-            <div className="contrate"><a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank" >Contrate</a></div>
+            <div className="contrate"><a href={product3} target="_blank" value='3'>Colocar no carrinho</a></div>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
@@ -53,7 +58,7 @@ function Suporte() {
               Anti-virus implementando sempre a melhor opção e solução para sua
               empresa.
             </Card.Text>
-            <div className="contrate"><a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!" target="_blank" >Contrate</a></div>
+            <div className="contrate"><a href={product4} target="_blank" value='4'>Colocar no carrinho</a></div>
           </Card.Body>
         </Card>
       </div>
