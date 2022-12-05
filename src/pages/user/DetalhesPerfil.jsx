@@ -8,7 +8,7 @@ export default function DetalhesPerfil() {
 
       <div className='profile-picture'>
         <div className='avatar'>
-          <div className='avatar-img'><div className='alter-photo'><span class="material-symbols-outlined">add_a_photo</span></div></div>
+          <div className='avatar-img'><div className='alter-photo'><span className="material-symbols-outlined">add_a_photo</span></div></div>
           <div className='username'>@suelenoc</div>
         </div>
       </div>
@@ -17,7 +17,7 @@ export default function DetalhesPerfil() {
       <div className='information col-md-8'>
         <div className='infos'>
           <p className='title'>MEU PERFIL</p>
-          <div className='chest-user'><span class="material-symbols-outlined">shopping_basket</span></div>
+          <div className='chest-user'><span className="material-symbols-outlined">shopping_basket</span></div>
         </div>
 
       

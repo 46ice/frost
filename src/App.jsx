@@ -6,8 +6,6 @@ import Login from './pages/index/Login';
 import Logout from './pages/index/Logout';
 import CadastroCall from './components/CadastroCall';
 
-import Header from "./components/Header";
-import HeaderLogged from "./components/HeaderLogged";
 import Footer from "./components/Footer";
 
 import Home from "./pages/index/Home";
@@ -19,31 +17,30 @@ import useToken from './components/useToken';
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HeaderOption from "./components/HeaderOption";
 
 function App() {
 
   const { token, setToken } = useToken();
-
   
-
-  if(!token) {
-    return (
-      <div className="App">
-        <Header/>
-        <Login setToken={setToken} />
-        <Footer/>
-      </div>
-    )
-  }
+  // if(!token) {
+  //   return (
+  //     <div className="App">
+  //       <Header/>
+  //       <Login setToken={setToken} />
+  //       <Footer/>
+  //     </div>
+  //   )
+  // }
 
   return (
     <div className="App">
       <BrowserRouter>
-                <HeaderLogged />
+                <HeaderOption />
                 <div className="main-content">
                     <Routes>
                         <Route path="/" element={<Home />}></Route>
-                        <Route path="/login" element={<Login />}></Route>
+                        <Route path="/login" element={<Login setToken={setToken}/>}></Route>
                         <Route path="/logout" element={<Logout />}></Route>
                         <Route path="/register" element={<CadastroCall />}></Route>
                         <Route path="/home" element={<Home />}></Route>
