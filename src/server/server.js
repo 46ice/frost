@@ -20,6 +20,10 @@ db.sequelize.sync({ force: false }).then(() => {
   });
 
 require("../router/frost.routes.js")(app);
+require("../router/user.routes.js")(app);
+require("../router/product.routes.js")(app);
+require("../router/buy.routes.js")(app);
+require("../router/chest.routes.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
