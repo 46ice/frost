@@ -10,7 +10,6 @@ function Home() {
   const userChestID =localStorage.getItem('chestid');
   const userContact =localStorage.getItem('contact');   
 
-  
 
   return (
     <div className="div-home">
