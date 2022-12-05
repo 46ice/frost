@@ -6,17 +6,21 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false,
             primaryKey: true
       },
-    product_id: {
+      product_id: {
         type: Sequelize.INTEGER,
-        references: 'products', // <<< Note, its table's name, not object name
-        referencesKey: 'id' // <<< Note, its a column name
-    },
-    chest_id: {
-        type: Sequelize.INTEGER,
-        references: 'chests',
-        referencesKey: 'id' 
-    }
-    });
+        references: {
+            model: 'products',
+            key: 'id'
+        }
+      },
+      chest_id: {
+          type: Sequelize.INTEGER,
+          references: {
+              model: 'chest',
+              key: 'id'
+          }
+      }
+      });
   
     return ProductInChest;
   };

@@ -1,10 +1,10 @@
 import Card from "react-bootstrap/Card";
 import "../../assets/support.css";
 
-const product1 = 'http://localhost:8080/create/1/' + localStorage.getItem('id');
-const product2 = 'http://localhost:8080/create/2/' + localStorage.getItem('id');
-const product3 = 'http://localhost:8080/create/3/' + localStorage.getItem('id');
-const product4 = 'http://localhost:8080/create/4/' + localStorage.getItem('id');
+const product1 = 'http://localhost:8080/frost/chest/add/1/' + localStorage.getItem('id');
+const product2 = 'http://localhost:8080/frost/chest/add/2/' + localStorage.getItem('id');
+const product3 = 'http://localhost:8080/frost/chest/add/3/' + localStorage.getItem('id');
+const product4 = 'http://localhost:8080/frost/chest/add/4/' + localStorage.getItem('id');
 
 function Suporte() {
   return (
@@ -22,7 +22,7 @@ function Suporte() {
               estar presente em todos os meios para suporte de hardware para a
               sua necessidade e de sua empresa.
             </Card.Text>
-            <div className="contrate"><a href={product2} target="_blank">Colocar no carrinho</a></div>
+            <div className="contrate"><a href={product1} target="_blank">Colocar no carrinho</a></div>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>

@@ -43,15 +43,6 @@ export default function Login({ setToken }) {
     navigate("/home"), {state:{refresh:true}};
   }
 
-
-
-  const handleCart = async e => {
-    e.preventDefault();
-    const item = await addInCart({item});
-    setItem(item);
-    navigate("/home");
-  }
-
   return (
     <>
     <div className="wall">
