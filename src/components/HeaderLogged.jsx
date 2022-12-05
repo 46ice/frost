@@ -21,9 +21,9 @@ function HeaderLogged() {
                         <div className="link"><a href="/suporte">PRODUTOS</a></div>
                     </div>
                 </div>
-                <div class="btn-group btn-group-toggle">
-                    <a class="btn btn-secondary btn-nav" href="/home"><i class="fa fa-home"></i></a>
-                    <a class="btn btn-secondary btn-nav" onClick={logOut}><span class="material-symbols-outlined">logout</span></a>    
+                <div className="btn-group btn-group-toggle">
+                    <a className="btn btn-secondary btn-nav" href="/home"><i className="fa fa-home"></i></a>
+                    <a className="btn btn-secondary btn-nav" onClick={logOut}><i class="fa fa-sign-out" aria-hidden="true"></i></a>    
                 </div>
             </div>
         </header>

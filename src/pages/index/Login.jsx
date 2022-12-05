@@ -3,8 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-
-var link = "http://localhost:8080/frost/login";
+import { useNavigate } from "react-router-dom";
 
 async function loginUser(credentials) {
   return fetch('http://localhost:8080/frost/login', {
@@ -21,17 +20,18 @@ export default function Login({ setToken }) {
 
   let [email, setEmail] = useState();
   let [password, setPassword] = useState();
-  
+
+  const navigate = useNavigate();
 
   const handleSubmit = async e => {
+    
     e.preventDefault();
-    const token = await loginUser({
-      email,
-      password
-    });
+    const token = await loginUser({ email, password});
     setToken(token);
+    navigate("/home"), {state:{refresh:true}};
   }
 
+      
   return (
     <>
     <div className="wall">

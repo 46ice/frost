@@ -1,13 +1,22 @@
 import "../../assets/home.css";
 import React from 'react';
+import WelcomeMessage from "../../components/WelcomeMessage";
 
 function Home() {
+  
+  const userId =localStorage.getItem('id');
+  const userName =localStorage.getItem('name');
+  const userEmail =localStorage.getItem('email');
+  const userChestID =localStorage.getItem('chestid');
+  const userContact =localStorage.getItem('contact');   
+
   
 
   return (
     <div className="div-home">
       <div className="sobre" id="sobre">
-        <h1 className="mb-5">Sobre nós</h1>
+        <WelcomeMessage />
+        <h1 className="mb-5">Leia um pouco sobre nós</h1>
         <p>
         A Frost Technology tem como objetivo realizar atendimentos com a máxima excelência e competência, contamos com profissionais qualificados e com experiência na área.
         Prezamos sempre pela satisfação do cliente. Para que você se sinta sempre a vontade para retornar quando precisar.

@@ -15,22 +15,11 @@ app.get("/", (req, res) => { // simple route
 
 //sequelize
 const db = require("../models");
-db.sequelize.sync({ force: true }).then(() => {
+db.sequelize.sync({ force: false }).then(() => {
     console.log("Drop and re-sync db.");
   });
 
 require("../router/frost.routes.js")(app);
-
-
-
-//login
-// await app.use('/login', (req, res) => {
-//   const user = db.user.findOne({ where : {email : req.body.email }});
-//   if(user){
-//     const password_valid = bcrypt.compare(req.body.password,user.password);
-//     if(password_valid){
-//       res.send({token: user.id});
-// }}});
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
