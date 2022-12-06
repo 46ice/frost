@@ -16,13 +16,7 @@ module.exports = app => {
     });
     
 
-    //procura um carrinho
-    router.get("/chest/:id", async(req, res) => {
-      const id = req.params.id;
-      await db.chest.findByPk(id).then(data => {return res.send(data);});
-    });
-
-
+    
     //atualiza um carrinho
     router.put("/chest/update/:id", async (req, res) => {
       const id = req.params.id;
@@ -95,8 +89,15 @@ module.exports = app => {
           });
         });
     
-    
   })
+
+  //produtos no carrinho
+  router.get("/chest/:id/", async (req, res) => {
+    const id = req.params.id;
+
+    const products = await db.products_in_chest.findAll({where: {userId: id}});
+    return res.send(products);
+  });
 
   app.use('/frost', router);
 };

@@ -12,6 +12,7 @@ import Home from "./pages/index/Home";
 import Produtos from "./pages/index/Produtos";
 import DetalhesPerfil from './pages/user/DetalhesPerfil';
 import Chest from './pages/chest/Chest';
+import ChestWithProduct from './pages/chest/ChestWithProduct';
 
 import useToken from './components/useToken';
 
@@ -37,6 +38,7 @@ function App() {
                         <Route path="/profile" element={<DetalhesPerfil />}></Route>
                         <Route path="/suporte" element={<Produtos />}></Route>
                         <Route path="/chest" element={<Chest />}></Route>
+                        <Route path="/chestfull" element={<ChestWithProduct />}></Route>
                     </Routes>
                 </div>
                 <Footer />
