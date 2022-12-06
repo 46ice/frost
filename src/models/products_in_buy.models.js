@@ -8,17 +8,17 @@ module.exports = (sequelize, Sequelize) => {
     },
     product_id: {
         type: Sequelize.INTEGER,
-        references: {
-            model: 'products',
-            key: 'id'
-        }
+        // references: {
+        //     model: 'products',
+        //     key: 'id'
+        // }
     },
     buy_id: {
         type: Sequelize.INTEGER,
-        references: {
-            model: 'buys',
-            key: 'id'
-        }
+        // references: {
+        //     model: 'buys',
+        //     key: 'id'
+        // }
     }
     });
 
