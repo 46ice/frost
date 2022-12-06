@@ -2,6 +2,9 @@ import "../../assets/home.css";
 import React from 'react';
 import WelcomeMessage from "../../components/WelcomeMessage";
 
+import Button from 'react-bootstrap/Button';
+import '../../assets/ButtonSupport.css';
+
 function Home() {
   
   const userId =localStorage.getItem('id');
@@ -102,6 +105,11 @@ function Home() {
           </div>
         </div>
       </div>
+      <div>
+        <Button variant="link" className="buttonSupport" data-bs-toggle="tooltip" title="Suporte">
+          <a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!"><img src="../../../public/files/whatsapp.png" alt="" /></a>
+        </Button>
+        </div>
     </div>
   );
 }

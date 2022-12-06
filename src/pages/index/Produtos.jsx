@@ -1,6 +1,9 @@
 import Card from "react-bootstrap/Card";
 import "../../assets/support.css";
 
+import Button from 'react-bootstrap/Button';
+import '../../assets/ButtonSupport.css';
+
 const product1 = 'http://localhost:8080/frost/chest/add/1/' + localStorage.getItem('id');
 const product2 = 'http://localhost:8080/frost/chest/add/2/' + localStorage.getItem('id');
 const product3 = 'http://localhost:8080/frost/chest/add/3/' + localStorage.getItem('id');
@@ -61,6 +64,12 @@ function Suporte() {
             <div className="contrate"><a href={product4} target="_blank" value='4'>Colocar no carrinho</a></div>
           </Card.Body>
         </Card>
+        <div>
+          <Button variant="link" className="buttonSupport" data-bs-toggle="tooltip" title="Suporte">
+            <a href="https://api.whatsapp.com/send?phone=14155238886&text=Gostaria%20de%20fazer%20um%20orçamento!"><img src="../../../public/files/whatsapp.png" alt="" /></a>
+          </Button>
+        </div>
+        
       </div>
     </div>
   );
