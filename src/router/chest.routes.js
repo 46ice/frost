@@ -4,7 +4,6 @@ module.exports = app => {
   
     var router = require("express").Router();
   
-
     //procura todos os carrinhos
     router.get("/chest/all", async (req, res) => {
       try {
@@ -80,9 +79,10 @@ module.exports = app => {
     router.get("/chest/add/:id/:idUser", async (req, res) => {
 
       const product_in_chest = {
-        product_id: req.params.id,
-        chest_id:  req.params.idUser
+        product_id: parseInt(req.params.id) ,
+        chest_id:  parseInt(req.params.idUser)
       }
+
       await db.products_in_chest.create(product_in_chest)
         .then(data => {
 

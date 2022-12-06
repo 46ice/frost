@@ -20,15 +20,14 @@ module.exports = app => {
 
       const chest = {qnty: 0, value: 0}
 
-      await db.chest.create(chest).then(data => {}).catch(err => {
-      await db.user.create(user).then(data => {res.status(200).redirect('http://localhost:5173/home');}).catch(err => {
+      await db.chest.create(chest).then(data => {}).catch(err => {});
+      await db.user.create(user).then(data => {res.status(200).redirect('http://localhost:5173/login');}).catch(err => {
           res.status(500).send({
             message:
               err.message + hashedPassword || "Some error occurred while creating the user."
           });
         });
     });
-
 
     //procura todos os usuarios
     router.get("/user/all", async (req, res) => {

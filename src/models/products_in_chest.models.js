@@ -6,19 +6,14 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false,
             primaryKey: true
       },
+
       product_id: {
-        type: Sequelize.INTEGER,
-        references: {
-            model: 'products',
-            key: 'id'
-        }
+        type: Sequelize.INTEGER
+        
       },
       chest_id: {
-          type: Sequelize.INTEGER,
-          references: {
-              model: 'chest',
-              key: 'id'
-          }
+          type: Sequelize.INTEGER
+         
       }
       });
   

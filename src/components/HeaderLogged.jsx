@@ -22,7 +22,7 @@ function HeaderLogged() {
                     </div>
                 </div>
                 <div className="btn-group btn-group-toggle">
-                    <a className="btn btn-secondary btn-nav" href="/home"><i className="fa fa-home"></i></a>
+                    <a className="btn btn-secondary btn-nav" href="/chest"><i className="fa fa-shopping-cart"></i></a>
                     <a className="btn btn-secondary btn-nav" onClick={logOut}><i class="fa fa-sign-out" aria-hidden="true"></i></a>    
                 </div>
             </div>
